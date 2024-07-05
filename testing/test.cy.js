@@ -31,7 +31,7 @@ describe("test suite - conjunto de pruebas", () => {
         cy.get("#btn_submit").click()
         cy.get("#btn_submit").click()
         cy.get(".alert").contains("segunda modificacion de git para ver si funciona")
-        cy.get(".alert").contains("Nuevo caso de pruebas con resultado optenido")
+        cy.get(".alert").contains("ya estan fusionadas commit #3")
         
     })
     
